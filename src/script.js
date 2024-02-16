@@ -11,7 +11,6 @@ for (let m = 0; m<tamanho; m++ ) {
     document.getElementById("mes").innerHTML += "<option value='" + mensal[m] + "'>" + mensal[m] + "</option>";
 }
 
-
 for (let d = 1; d <= 31; d++ ) {
     document.getElementById("dia").innerHTML += "<option value='" + d + "'>" + d + "</option>";
 }
