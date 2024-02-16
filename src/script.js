@@ -5,9 +5,10 @@ for (let y = ano; y >= 1900; y-- ) {
     document.getElementById("ano").innerHTML += "<option value='" + y+ "'>" + y + "</option>";
 }
 
-
-for (let m = 1; m <= 12; m++ ) {
-    document.getElementById("mes").innerHTML += "<option value='" + m + "'>" + m + "</option>";
+const mensal = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+var tamanho = mensal.length;
+for (let m = 0; m<tamanho; m++ ) {
+    document.getElementById("mes").innerHTML += "<option value='" + mensal[m] + "'>" + mensal[m] + "</option>";
 }
 
 
